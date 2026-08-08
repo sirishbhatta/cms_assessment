@@ -1,0 +1,4 @@
+# This job uses the Python standard library (3.8+) for everything except
+# the embedded analytical database:
+#   urllib, sqlite3, csv, concurrent.futures, re, json, logging, pathlib
+duckdb
