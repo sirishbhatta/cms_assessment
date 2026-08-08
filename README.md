@@ -19,12 +19,8 @@ python cms_hospitals_job.py
 
 73 CSVs land in `output/`, one per Hospitals dataset, with snake_case column headers.
 
-![output](images/output.png)
+
 
 ## SQL Server import and data profiling
 
-Before writing the Python job, I used SQL Server 2025 thats on my local machine  to import the raw CMS catalog JSON, profile its columns, and confirm the Hospitals theme resolves to the same 73 datasets that the Python version downloads.
-
-![SQL Server import and data profiling](images/sql_server_import_and_data_profiling_1.png)
-
-![SQL Server import and data profiling](images/sql_server_import_and_data_profiling_2.png)
+Before writing the Python job, I used SQL Server 2025 thats on my local machine  to import the raw CMS catalog JSON, profile its columns, and confirm the Hospitals theme resolves to the same 73 datasets that the Python version downloads.Please refer to Images folder.
